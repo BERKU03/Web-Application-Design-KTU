@@ -22,7 +22,7 @@ builder.Services.AddControllers()
     });
 
 // 3. Configuración de JWT Authentication
-
+//sfdafasf
 var jwtSection = builder.Configuration.GetSection("Jwt");
 var key = Encoding.UTF8.GetBytes(jwtSection["Key"]);
 
