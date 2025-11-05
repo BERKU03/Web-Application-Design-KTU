@@ -1,0 +1,6 @@
+@DigitalLibraryDemo_HostAddress = http://localhost:5009
+
+GET {{DigitalLibraryDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
